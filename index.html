@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FGTB Advogados | Advocacia Estratégica | Manaus · Brasília</title>
+  <meta name="description" content="Escritório de advocacia estratégica em Manaus e Brasília. Atuação em tribunais superiores, energia elétrica, direito eleitoral, trabalhista e contencioso." />
+  <meta name="theme-color" content="#0B1A2F" />
+
+  <!-- ==== SEO / Social ====
+       Domínio confirmado: fgtb.com.br.
+       Ajuste as URLs abaixo se o domínio final for outro. -->
+  <link rel="canonical" href="https://fgtb.com.br/" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="FGTB — Figliuolo, Gentil, Tavares &amp; Brandão Sociedade de Advogados" />
+
+  <!-- Open Graph (LinkedIn, WhatsApp, Facebook) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="FGTB Advogados" />
+  <meta property="og:title" content="FGTB Advogados | Advocacia Estratégica | Manaus · Brasília" />
+  <meta property="og:description" content="Escritório de advocacia estratégica em Manaus e Brasília. Atuação em tribunais superiores, energia elétrica, direito eleitoral, trabalhista e contencioso de alto impacto." />
+  <meta property="og:url" content="https://fgtb.com.br/" />
+  <meta property="og:locale" content="pt_BR" />
+  <!-- TODO: idealmente uma imagem 1200x630 dedicada ao compartilhamento -->
+  <meta property="og:image" content="https://fgtb.com.br/Fotos/FGTB-370.jpg" />
+  <meta property="og:image:alt" content="FGTB — Sociedade de Advogados" />
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="FGTB Advogados | Advocacia Estratégica | Manaus · Brasília" />
+  <meta name="twitter:description" content="Advocacia estratégica em Manaus e Brasília. Tribunais superiores, direito público e energia, eleitoral, trabalhista e contencioso de alto impacto." />
+  <meta name="twitter:image" content="https://fgtb.com.br/Fotos/FGTB-370.jpg" />
+
+  <!-- Schema.org JSON-LD — LegalService + LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LegalService",
+    "name": "FGTB — Figliuolo, Gentil, Tavares & Brandão Sociedade de Advogados",
+    "alternateName": "FGTB Advogados",
+    "url": "https://fgtb.com.br/",
+    "image": "https://fgtb.com.br/Fotos/FGTB-370.jpg",
+    "email": "contato@fgtb.adv.br",
+    "telephone": "+55 92 98413-6499",
+    "priceRange": "$$$",
+    "areaServed": ["Manaus", "Amazonas", "Brasília", "Distrito Federal", "Brasil"],
+    "sameAs": [
+      "https://www.instagram.com/fgtbadvogados/",
+      "https://www.linkedin.com/company/adv-fgtb"
+    ],
+    "address": [
+      { "@type": "PostalAddress", "streetAddress": "Rua Salvador, 440, Adrianópolis — Edifício Soberane, 13º andar, sala 1304", "addressLocality": "Manaus", "addressRegion": "AM", "addressCountry": "BR" },
+      { "@type": "PostalAddress", "streetAddress": "SHIS QL 12, Conjunto 09, Casa 15, Lago Sul", "addressLocality": "Brasília", "addressRegion": "DF", "postalCode": "71630-295", "addressCountry": "BR" }
+    ],
+    "knowsAbout": [
+      "Contencioso Cível", "Contencioso Estratégico", "Direito Público",
+      "Direito Eleitoral", "Direito Trabalhista", "Direito Empresarial e Societário",
+      "Recuperação Judicial e Falência"
+    ]
+  }
+  </script>
+
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <style>
+    /* =========================================================
+       FGTB — Sistema visual
+       Identidade: navio (midnight/navy), ouro muiraquitã, marfim.
+       Tipografia: Libre Caslon (autoridade) + Hanken Grotesk (clareza).
+       ========================================================= */
+    :root {
+      /* —— Escala de profundidade (azul) —— */
+      --midnight:    #0B1A2F;   /* fundo dramático · herói, rodapé */
+      --midnight-2:  #0F2138;   /* camada elevada sobre midnight */
+      --navy:        #1C3A66;   /* azul institucional · CTAs, links */
+      --navy-deep:   #142A4C;   /* hover de azul */
+
+      /* —— Estrutura clara —— */
+      --white:       #FFFFFF;
+      --ivory:       #F6F2EA;   /* seção alternada quente */
+      --ivory-2:     #EEE7D9;
+      --ink:         #15202B;   /* títulos */
+      --slate:       #46515F;   /* corpo — contraste alto sobre claro */
+      --slate-dim:   #5E6977;
+
+      /* —— Ouro (muiraquitã) —— */
+      --gold:        #C9A86A;   /* decorativo */
+      --gold-soft:   #DAC59C;
+      --gold-ink:    #7E5F2E;   /* ouro legível como texto sobre claro */
+
+      /* —— Linhas —— */
+      --line:        rgba(21,32,43,.11);
+      --line-soft:   rgba(21,32,43,.07);
+      --line-gold:   rgba(201,168,106,.34);
+
+      /* —— Texto sobre escuro —— */
+      --on-dark:     rgba(255,255,255,.80);
+      --on-dark-dim: rgba(255,255,255,.60);
+      --on-dark-faint: rgba(255,255,255,.42);
+
+      /* —— Tipografia —— */
+      --display: 'Libre Caslon Display', Georgia, serif;
+      --serif:   'Libre Caslon Text', Georgia, serif;
+      --sans:    'Hanken Grotesk', -apple-system, 'Segoe UI', sans-serif;
+
+      /* —— Escala fluida (≥1.25) —— */
+      --t-hero:  clamp(2.7rem, 1.6rem + 4.6vw, 5rem);
+      --t-h2:    clamp(1.95rem, 1.3rem + 2.4vw, 3rem);
+      --t-h3:    clamp(1.18rem, 1.05rem + .5vw, 1.4rem);
+      --t-quote: clamp(1.55rem, 1rem + 2.4vw, 2.55rem);
+      --t-lead:  clamp(1.02rem, .97rem + .3vw, 1.18rem);
+
+      /* —— Métrica —— */
+      --max-w: 1240px;
+      --pad-y: clamp(72px, 9vw, 124px);
+      --pad-x: clamp(22px, 5vw, 52px);
+
+      --ease: cubic-bezier(.16, 1, .3, 1);
+
+      /* —— Camadas (z-index semântico) —— */
+      --z-base: 1;
+      --z-sticky: 100;
+      --z-nav: 1000;
+      --z-menu: 1100;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+    body {
+      background: var(--white);
+      color: var(--slate);
+      font-family: var(--sans);
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 1.72;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+      overflow-x: hidden;
+    }
+    ::selection { background: var(--gold); color: var(--midnight); }
+    img { max-width: 100%; display: block; }
+    p { text-wrap: pretty; }
+
+    /* ===== UTILITÁRIOS ===== */
+    .container { max-width: var(--max-w); margin: 0 auto; padding: 0 var(--pad-x); }
+
+    .serif { font-family: var(--serif); }
+
+    h1, .h1 {
+      font-family: var(--display); font-weight: 400;
+      font-size: var(--t-hero); line-height: 1.02;
+      letter-spacing: -.012em; color: var(--ink);
+      text-wrap: balance;
+    }
+    h2, .h2 {
+      font-family: var(--serif); font-weight: 400;
+      font-size: var(--t-h2); line-height: 1.08;
+      letter-spacing: -.01em; color: var(--ink);
+      text-wrap: balance;
+    }
+    h3, .h3 {
+      font-family: var(--serif); font-weight: 700;
+      font-size: var(--t-h3); line-height: 1.2; color: var(--ink);
+      text-wrap: balance;
+    }
+    .lead {
+      font-size: var(--t-lead); line-height: 1.7; color: var(--slate);
+      max-width: 62ch;
+    }
+    strong { color: var(--ink); font-weight: 600; }
+
+    /* Marcador de seção — usado com parcimônia, não como gramática */
+    .kicker {
+      display: inline-flex; align-items: center; gap: 12px;
+      font-family: var(--sans); font-size: .72rem; font-weight: 700;
+      letter-spacing: .22em; text-transform: uppercase;
+      color: var(--gold-ink);
+    }
+    .kicker::before {
+      content: ''; width: 8px; height: 8px; flex-shrink: 0;
+      background: var(--gold); transform: rotate(45deg);
+    }
+    .kicker--on-dark { color: var(--gold-soft); }
+
+    /* ===== BOTÕES ===== */
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+      font-family: var(--sans); font-size: .78rem; font-weight: 700;
+      letter-spacing: .14em; text-transform: uppercase;
+      text-decoration: none; white-space: nowrap;
+      padding: 15px 30px; cursor: pointer; border: 1px solid transparent;
+      transition: background .3s var(--ease), color .3s var(--ease),
+                  border-color .3s var(--ease), transform .3s var(--ease),
+                  box-shadow .3s var(--ease);
+    }
+    .btn svg { width: 15px; height: 15px; transition: transform .3s var(--ease); }
+    .btn:hover svg { transform: translateX(3px); }
+
+    .btn--gold { background: var(--gold); color: var(--midnight); border-color: var(--gold); }
+    .btn--gold:hover { background: var(--gold-soft); border-color: var(--gold-soft); transform: translateY(-2px); box-shadow: 0 14px 30px rgba(201,168,106,.28); }
+
+    .btn--primary { background: var(--navy); color: var(--white); border-color: var(--navy); }
+    .btn--primary:hover { background: var(--navy-deep); border-color: var(--navy-deep); transform: translateY(-2px); box-shadow: 0 14px 30px rgba(20,42,76,.24); }
+
+    .btn--ghost { background: transparent; color: var(--navy); border-color: rgba(28,58,102,.35); }
+    .btn--ghost:hover { background: var(--navy); color: var(--white); border-color: var(--navy); }
+
+    .btn--ghost-light { background: transparent; color: var(--white); border-color: rgba(218,197,156,.45); }
+    .btn--ghost-light:hover { background: rgba(255,255,255,.06); border-color: var(--gold); color: var(--gold-soft); }
+
+    a:focus-visible, button:focus-visible, input:focus-visible,
+    select:focus-visible, textarea:focus-visible {
+      outline: 2px solid var(--gold); outline-offset: 3px; border-radius: 1px;
+    }
+
+    /* ===== TRELIÇA MUIRAQUITÃ (motivo amazônida sobre fundo escuro) ===== */
+    .diamond-bg { position: relative; overflow: hidden; isolation: isolate; }
+    .diamond-bg > * { position: relative; z-index: var(--z-base); }
+    .diamond-bg::before {
+      content: ''; position: absolute; inset: 0; z-index: 0; pointer-events: none;
+      opacity: .55;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='92' height='92'%3E%3Cg fill='none' stroke='%23C9A86A' stroke-width='0.85' stroke-opacity='0.5'%3E%3Cpath d='M0 0L92 92M92 0L0 92'/%3E%3Cpath d='M46 30L62 46L46 62L30 46Z'/%3E%3Cpath d='M46 39L53 46L46 53L39 46Z'/%3E%3Cpath d='M0 -16L16 0L0 16L-16 0Z'/%3E%3Cpath d='M92 -16L108 0L92 16L76 0Z'/%3E%3Cpath d='M0 76L16 92L0 108L-16 92Z'/%3E%3Cpath d='M92 76L108 92L92 108L76 92Z'/%3E%3C/g%3E%3C/svg%3E");
+      background-size: 92px 92px;
+    }
+    /* Vinheta para concentrar o conteúdo sobre a treliça */
+    .diamond-bg::after {
+      content: ''; position: absolute; inset: 0; z-index: 0; pointer-events: none;
+      background: radial-gradient(120% 90% at 50% 0%, transparent 40%, rgba(11,26,47,.55) 100%);
+    }
+
+    /* ===== NAVBAR ===== */
+    #nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: var(--z-nav);
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 24px var(--pad-x);
+      transition: background .45s var(--ease), padding .45s var(--ease),
+                  border-color .45s var(--ease), box-shadow .45s var(--ease);
+      border-bottom: 1px solid transparent;
+    }
+    .nav-brand { text-decoration: none; line-height: 1; display: block; }
+    .nav-brand-main {
+      font-family: var(--display); font-size: 25px; font-weight: 400;
+      letter-spacing: .06em; color: var(--white); display: block;
+      transition: color .45s var(--ease);
+    }
+    .nav-brand-sub {
+      font-family: var(--sans); font-size: .56rem; font-weight: 700;
+      letter-spacing: .26em; text-transform: uppercase;
+      color: var(--gold-soft); margin-top: 6px; display: block;
+      transition: color .45s var(--ease);
+    }
+    .nav-menu { display: flex; gap: 36px; list-style: none; align-items: center; }
+    .nav-menu a {
+      font-family: var(--sans); font-size: .72rem; font-weight: 600;
+      letter-spacing: .12em; text-transform: uppercase;
+      text-decoration: none; color: var(--on-dark); position: relative;
+      padding: 4px 0; transition: color .25s var(--ease);
+    }
+    .nav-menu a::after {
+      content: ''; position: absolute; left: 0; bottom: -2px; height: 1px; width: 100%;
+      background: var(--gold); transform: scaleX(0); transform-origin: left;
+      transition: transform .3s var(--ease);
+    }
+    .nav-menu a:hover { color: var(--white); }
+    .nav-menu a:hover::after { transform: scaleX(1); }
+    /* Seção ativa (scroll spy) */
+    .nav-menu a.active { color: var(--white); }
+    .nav-menu a.active::after { transform: scaleX(1); }
+    #nav.scrolled .nav-menu a.active { color: var(--navy); }
+    .nav-cta {
+      font-family: var(--sans); font-size: .68rem; font-weight: 700;
+      letter-spacing: .16em; text-transform: uppercase;
+      text-decoration: none; color: var(--midnight); background: var(--gold);
+      padding: 11px 22px; transition: background .25s var(--ease), transform .25s var(--ease);
+    }
+    .nav-cta:hover { background: var(--gold-soft); transform: translateY(-1px); }
+
+    /* Estado: rolagem → barra clara */
+    #nav.scrolled {
+      background: rgba(255,255,255,.92);
+      padding: 13px var(--pad-x);
+      border-color: var(--line);
+      backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+      box-shadow: 0 8px 30px rgba(11,26,47,.07);
+    }
+    #nav.scrolled .nav-brand-main { color: var(--ink); }
+    #nav.scrolled .nav-brand-sub { color: var(--gold-ink); }
+    #nav.scrolled .nav-menu a { color: var(--slate); }
+    #nav.scrolled .nav-menu a:hover { color: var(--navy); }
+    #nav.scrolled .nav-cta { background: var(--navy); color: var(--white); }
+    #nav.scrolled .nav-cta:hover { background: var(--navy-deep); }
+    #nav.scrolled .nav-toggle span { background: var(--ink); }
+
+    .nav-toggle {
+      display: none; flex-direction: column; gap: 5px;
+      background: none; border: none; cursor: pointer; padding: 6px;
+    }
+    .nav-toggle span { display: block; width: 26px; height: 2px; background: var(--white); transition: background .45s var(--ease); }
+
+    /* ===== HERO (vídeo em tela cheia) ===== */
+    #hero {
+      position: relative; background: var(--midnight); color: var(--on-dark);
+      height: 100vh; height: 100svh; min-height: 560px;
+      overflow: hidden; isolation: isolate;
+    }
+    .hero-video {
+      position: absolute; inset: 0; width: 100%; height: 100%;
+      object-fit: cover; z-index: 0;
+      opacity: 0; transition: opacity 1.4s ease-in-out; will-change: opacity;
+    }
+    .hero-video.is-on { opacity: 1; }
+    .hero-overlay { /* vinheta para profundidade e blend com a próxima seção */
+      content: ''; position: absolute; inset: 0; z-index: 1; pointer-events: none;
+      background:
+        radial-gradient(120% 90% at 50% 18%, transparent 38%, rgba(11,26,47,.34) 100%),
+        linear-gradient(180deg, rgba(11,26,47,.42) 0%, rgba(11,26,47,.06) 26%, rgba(11,26,47,.20) 64%, rgba(11,26,47,.88) 100%);
+    }
+    .hero-overlay::after { /* treliça muiraquitã muito sutil para coesão de marca */
+      content: ''; position: absolute; inset: 0; opacity: .12;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='92' height='92'%3E%3Cg fill='none' stroke='%23C9A86A' stroke-width='0.8' stroke-opacity='0.45'%3E%3Cpath d='M0 0L92 92M92 0L0 92'/%3E%3Cpath d='M46 30L62 46L46 62L30 46Z'/%3E%3Cpath d='M46 39L53 46L46 53L39 46Z'/%3E%3C/g%3E%3C/svg%3E");
+      background-size: 92px 92px;
+    }
+
+    /* indicador de rolagem — só o traço, sem texto */
+    .hero-scroll {
+      position: absolute; left: 50%; bottom: clamp(26px, 4vw, 46px); transform: translateX(-50%);
+      z-index: 2; display: inline-flex; flex-direction: column; align-items: center; gap: 10px;
+      text-decoration: none;
+    }
+    .hero-scroll .line { width: 1px; height: 52px; background: rgba(255,255,255,.28); position: relative; overflow: hidden; }
+    .hero-scroll .line::after {
+      content: ''; position: absolute; inset: 0; background: var(--gold);
+      transform: translateY(-100%); animation: scrollLine 2.6s var(--ease) infinite;
+    }
+    @keyframes scrollLine { 0% { transform: translateY(-100%); } 55%,100% { transform: translateY(100%); } }
+
+    /* Conteúdo textual sobre o vídeo — H1 legível sem carregar o vídeo (SEO + mobile) */
+    .hero-content { position: absolute; left: 0; right: 0; bottom: clamp(92px, 15vh, 172px); z-index: 2; }
+    .hero-brand { margin-bottom: clamp(18px, 3vh, 30px); }
+    .hero-brand-main { font-family: var(--display); font-size: clamp(1.9rem, 3.4vw, 2.8rem); color: var(--white); letter-spacing: .06em; line-height: 1; display: block; }
+    .hero-brand-sub { font-family: var(--sans); font-size: .6rem; font-weight: 700; letter-spacing: .26em; text-transform: uppercase; color: var(--gold-soft); margin-top: 9px; display: block; }
+    .hero-title { color: var(--white); max-width: 20ch; text-shadow: 0 2px 34px rgba(0,0,0,.4); }
+    .hero-sub { color: var(--on-dark); font-size: var(--t-lead); line-height: 1.55; margin-top: 20px; max-width: 46ch; text-shadow: 0 1px 20px rgba(0,0,0,.4); }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 16px; margin-top: clamp(26px, 4vh, 40px); }
+
+    /* ===== QUEM SOMOS ===== */
+    #sobre { padding: var(--pad-y) 0; }
+    .sobre-grid { display: grid; grid-template-columns: 1.05fr .95fr; gap: clamp(40px, 6vw, 88px); align-items: center; }
+    .sobre-text > * + * { margin-top: 24px; }
+    .sobre-text h2 { max-width: 18ch; }
+    .sobre-stats {
+      display: flex; flex-wrap: wrap; gap: clamp(24px, 4vw, 48px);
+      margin-top: 38px; padding-top: 34px; border-top: 1px solid var(--line);
+    }
+    .stat { flex: 1 1 120px; min-width: 110px; }
+    .stat-num { font-family: var(--display); font-size: clamp(2.4rem, 4vw, 3.1rem); color: var(--navy); line-height: .9; }
+    .stat-num sup { font-size: .5em; color: var(--gold-ink); top: -.7em; }
+    .stat-label { font-family: var(--sans); font-size: .72rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--slate-dim); margin-top: 12px; line-height: 1.45; }
+    .sobre-visual { position: relative; }
+    .sobre-visual .frame { position: relative; overflow: hidden; aspect-ratio: 4/5; background: linear-gradient(155deg, var(--midnight-2), var(--navy)); box-shadow: 0 34px 70px -34px rgba(11,26,47,.4); }
+    .sobre-visual .frame img { filter: grayscale(6%); }
+    .frame-mono { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; color: var(--gold); font-family: var(--display); letter-spacing: .08em; text-align: center; }
+    .frame-mono span:last-child { font-family: var(--sans); font-size: .6rem; font-weight: 700; letter-spacing: .24em; text-transform: uppercase; color: var(--gold-soft); }
+    /* Pilha de fotos: cada slide "assenta" por cima do anterior, lentamente */
+    .stack-slide { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; }
+    .stack-slide.is-on { opacity: 1; animation: stackIn 2.2s var(--ease) both; }
+    .stack-slide:nth-child(even).is-on { animation-name: stackInAlt; }
+    @keyframes stackIn { from { opacity: 0; transform: scale(1.08) rotate(1.6deg); } to { opacity: 1; transform: none; } }
+    @keyframes stackInAlt { from { opacity: 0; transform: scale(1.08) rotate(-1.6deg); } to { opacity: 1; transform: none; } }
+    @media (prefers-reduced-motion: reduce) {
+      .stack-slide.is-on { animation: none; }
+    }
+    /* Foto horizontal exibida inteira: fundo = a própria foto ampliada e desfocada, com véu navy */
+    .sobre-visual .frame .stack-slide--fit .bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; filter: blur(22px) brightness(.75) saturate(.8); transform: scale(1.15); }
+    .stack-slide--fit::after { content: ''; position: absolute; inset: 0; background: linear-gradient(155deg, rgba(16,28,44,.62), rgba(11,26,47,.72)); z-index: 1; }
+    .sobre-visual .frame .stack-slide--fit .fg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; filter: grayscale(6%) drop-shadow(0 14px 30px rgba(4,10,20,.55)); z-index: 2; }
+    .sobre-visual .tag {
+      position: absolute; left: -16px; bottom: 36px; z-index: 999;
+      background: var(--gold); color: var(--midnight);
+      font-family: var(--sans); font-size: .68rem; font-weight: 700;
+      letter-spacing: .16em; text-transform: uppercase; padding: 12px 20px;
+      box-shadow: 0 16px 34px -12px rgba(11,26,47,.45);
+    }
+
+    /* ===== ÁREAS DE ATUAÇÃO (cartões sobre midnight) ===== */
+    #areas { padding: var(--pad-y) 0; background: var(--midnight); color: var(--on-dark); }
+    .areas-head { display: grid; grid-template-columns: 1fr auto; gap: 28px 48px; align-items: end; margin-bottom: clamp(40px, 5vw, 60px); }
+    .areas-head h2 { color: var(--white); max-width: 16ch; }
+    .areas-head .kicker { margin-bottom: 20px; }
+    .areas-head p { color: var(--on-dark-dim); max-width: 38ch; font-size: 1rem; }
+
+    .areas-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(14px, 1.5vw, 20px); }
+    .area {
+      position: relative; display: flex; flex-direction: column; isolation: isolate;
+      padding: clamp(26px, 2.5vw, 36px);
+      background: rgba(255,255,255,.018);
+      border: 1px solid var(--line-gold);
+      text-decoration: none; overflow: hidden;
+      transition: background .4s var(--ease), border-color .4s var(--ease), transform .4s var(--ease);
+    }
+    .area::before { /* leve brilho dourado no hover, canto superior */
+      content: ''; position: absolute; inset: 0; z-index: -1; opacity: 0;
+      background: linear-gradient(155deg, rgba(201,168,106,.12), transparent 58%);
+      transition: opacity .4s var(--ease);
+    }
+    .area:hover { background: rgba(201,168,106,.045); border-color: rgba(201,168,106,.55); transform: translateY(-4px); }
+    .area:hover::before { opacity: 1; }
+    .area-num { font-family: var(--display); font-size: 1.1rem; color: var(--gold); letter-spacing: .05em; }
+    .area-title { font-family: var(--serif); font-weight: 400; font-size: clamp(1.24rem, 1.7vw, 1.5rem); line-height: 1.16; color: var(--white); margin-top: 14px; transition: color .35s var(--ease); }
+    .area:hover .area-title { color: var(--gold-soft); }
+    .area-desc { font-size: .92rem; line-height: 1.62; color: var(--on-dark-dim); margin-top: 12px; }
+
+    /* 7º cartão — faixa larga de fechamento, layout horizontal */
+    .area--wide { grid-column: 1 / -1; flex-direction: row; align-items: baseline; flex-wrap: wrap; gap: 6px 36px; }
+    .area--wide .area-title { margin-top: 0; flex: 0 0 auto; }
+    .area--wide .area-desc { margin-top: 0; flex: 1 1 320px; }
+
+    /* ===== DIFERENCIAIS (princípios sobre marfim) ===== */
+    #diferenciais { padding: var(--pad-y) 0; background: var(--ivory); }
+    .dif-grid { display: grid; grid-template-columns: .82fr 1.18fr; gap: clamp(40px, 6vw, 84px); align-items: start; }
+    .dif-intro { position: sticky; top: 110px; }
+    .dif-intro .kicker { margin-bottom: 22px; }
+    .dif-intro h2 { margin-bottom: 22px; max-width: 14ch; }
+    .dif-intro .lead { color: var(--slate); }
+    .dif-list { border-top: 1px solid var(--line); }
+    .dif-item { padding: clamp(24px, 3vw, 32px) 0; border-bottom: 1px solid var(--line); display: grid; grid-template-columns: auto 1fr; gap: 22px; }
+    .dif-mark { width: 13px; height: 13px; background: var(--gold); transform: rotate(45deg); margin-top: 9px; flex-shrink: 0; }
+    .dif-h { font-family: var(--serif); font-weight: 700; font-size: 1.18rem; color: var(--ink); line-height: 1.25; }
+    .dif-p { font-size: .98rem; line-height: 1.68; color: var(--slate); margin-top: 10px; max-width: 60ch; }
+
+    /* ===== CITAÇÃO / FAIXA MIDNIGHT ===== */
+    .quote-band { background: var(--midnight); color: var(--white); }
+    .quote-inner { position: relative; z-index: var(--z-base); max-width: 940px; margin: 0 auto; padding: clamp(72px, 9vw, 120px) var(--pad-x); text-align: center; }
+    .quote-mark { font-family: var(--display); font-size: clamp(4rem, 8vw, 6.5rem); line-height: .6; color: var(--gold); display: block; height: .5em; }
+    .quote-inner blockquote {
+      font-family: var(--serif); font-weight: 400; font-style: italic;
+      font-size: var(--t-quote); line-height: 1.32; color: var(--white);
+      max-width: 22ch; margin: 8px auto 0; text-wrap: balance;
+    }
+    .quote-cite { display: inline-flex; align-items: center; gap: 14px; margin-top: 34px; font-family: var(--sans); font-size: .72rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; color: var(--gold-soft); }
+    .quote-cite::before, .quote-cite::after { content: ''; width: 26px; height: 1px; background: var(--line-gold); }
+
+    /* ===== EQUIPE ===== */
+    #equipe { padding: var(--pad-y) 0; }
+    .equipe-head { display: grid; grid-template-columns: 1fr auto; gap: 24px 48px; align-items: end; margin-bottom: clamp(40px, 5vw, 58px); }
+    .equipe-head .kicker { margin-bottom: 20px; }
+    .equipe-head h2 { max-width: 16ch; }
+    .equipe-head p { color: var(--slate); max-width: 40ch; }
+    .equipe-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: clamp(18px, 2.2vw, 28px); }
+    .adv { position: relative; }
+    .adv-portrait {
+      position: relative; aspect-ratio: 3/4; overflow: hidden;
+      background: linear-gradient(160deg, var(--midnight-2), var(--navy-deep));
+    }
+    .adv-portrait::after { content: ''; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(180deg, transparent 52%, rgba(11,26,47,.62) 100%); }
+    .adv-portrait img { width: 100%; height: 100%; object-fit: cover; object-position: 50% var(--adv-pos-y, 0%); filter: grayscale(16%); transform: scale(var(--adv-zoom, 1)); transform-origin: top center; transition: filter .5s var(--ease), transform .6s var(--ease); }
+    .adv:hover .adv-portrait img { filter: grayscale(0%); transform: scale(calc(var(--adv-zoom, 1) * 1.045)); }
+    /* Compensação de enquadramento: fotos originais têm distâncias de câmera diferentes.
+       Zoom aproxima Ayrton/Lucas do tamanho de rosto dos demais; pos-y baixa o recorte do Luciano. */
+    .equipe-grid .adv:nth-child(2) .adv-portrait img { --adv-zoom: 1.12; }
+    .equipe-grid .adv:nth-child(3) .adv-portrait img { --adv-pos-y: 38%; }
+    .equipe-grid .adv:nth-child(4) .adv-portrait img { --adv-zoom: 1.05; }
+    .adv-mono { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-family: var(--display); font-size: 2.4rem; color: var(--gold); letter-spacing: .06em; }
+    .adv-rule { height: 2px; width: 60px; background: var(--gold); margin: 20px 0 14px; transform: scaleX(.567); transform-origin: left; transition: transform .4s var(--ease); }
+    .adv:hover .adv-rule { transform: scaleX(1); }
+    .adv-name { font-family: var(--serif); font-weight: 700; font-size: 1.16rem; color: var(--ink); line-height: 1.2; }
+    .adv-role { font-family: var(--sans); font-size: .66rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; color: var(--gold-ink); margin-top: 8px; }
+    .adv-area { font-size: .85rem; line-height: 1.55; color: var(--slate-dim); margin-top: 12px; }
+    .equipe-foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px; margin-top: clamp(40px, 5vw, 56px); padding-top: 30px; border-top: 1px solid var(--line); }
+    .equipe-foot p { font-size: .92rem; color: var(--slate-dim); max-width: 52ch; }
+
+    /* ===== CONTATO ===== */
+    #contato { padding: var(--pad-y) 0; background: var(--ivory); }
+    .contato-grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: clamp(40px, 6vw, 88px); }
+    .contato-info .kicker { margin-bottom: 20px; }
+    .contato-info h2 { margin-bottom: 20px; max-width: 12ch; }
+    .contato-info .lead { color: var(--slate); margin-bottom: 40px; max-width: 44ch; }
+    .contact-items { display: flex; flex-direction: column; gap: 4px; }
+    .contact-item { display: flex; gap: 18px; align-items: flex-start; padding: 20px 0; border-top: 1px solid var(--line); }
+    .contact-item:last-child { border-bottom: 1px solid var(--line); }
+    .contact-icon { flex-shrink: 0; color: var(--navy); margin-top: 2px; }
+    .contact-icon svg { width: 22px; height: 22px; }
+    .contact-label { font-family: var(--sans); font-size: .64rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; color: var(--gold-ink); margin-bottom: 4px; }
+    .contact-val { font-size: 1.02rem; color: var(--ink); font-weight: 500; }
+    .contact-val a { color: inherit; text-decoration: none; }
+    .contact-val a:hover { text-decoration: underline; }
+
+    .form { background: var(--white); padding: clamp(28px, 4vw, 44px); border: 1px solid var(--line); display: flex; flex-direction: column; gap: 26px; box-shadow: 0 30px 70px -40px rgba(11,26,47,.3); }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; }
+    .form-group { display: flex; flex-direction: column; gap: 9px; }
+    .form-group label { font-family: var(--sans); font-size: .66rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: var(--slate); }
+    .form-group input, .form-group select, .form-group textarea {
+      font-family: var(--sans); font-size: 16px; color: var(--ink);
+      background: transparent; border: none; border-bottom: 1.5px solid rgba(21,32,43,.2);
+      padding: 11px 2px; outline: none; width: 100%; transition: border-color .25s var(--ease);
+    }
+    .form-group input::placeholder, .form-group textarea::placeholder { color: #6E7682; }
+    .form-group input:focus, .form-group select:focus, .form-group textarea:focus { border-color: var(--navy); }
+    .form-group textarea { resize: vertical; min-height: 116px; line-height: 1.6; }
+    .form-group select {
+      cursor: pointer; color: var(--slate);
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%231C3A66' stroke-width='1.6' fill='none'/%3E%3C/svg%3E");
+      background-repeat: no-repeat; background-position: right 4px center; padding-right: 28px;
+    }
+    .form-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 18px; margin-top: 2px; }
+    .form-disclaimer { display: flex; gap: 11px; align-items: flex-start; font-size: .82rem; line-height: 1.6; color: var(--slate-dim); max-width: 42ch; }
+    .form-disclaimer::before { content: ''; width: 8px; height: 8px; background: var(--gold); transform: rotate(45deg); flex-shrink: 0; margin-top: .42em; }
+    .form-success { display: none; font-family: var(--sans); font-size: .9rem; font-weight: 600; color: var(--navy); background: var(--ivory); border: 1px solid var(--line); padding: 15px 18px; }
+    .form-success.show { display: block; }
+
+    /* ===== FOOTER ===== */
+    footer { background: var(--midnight); color: var(--on-dark-dim); }
+    .footer-inner { position: relative; z-index: var(--z-base); max-width: var(--max-w); margin: 0 auto; padding: clamp(56px, 7vw, 84px) var(--pad-x) 0; display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 48px; }
+    .footer-brand-main { font-family: var(--display); font-weight: 400; font-size: 28px; color: var(--white); letter-spacing: .05em; }
+    .footer-brand-sub { font-family: var(--sans); font-size: .62rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; color: var(--gold-soft); margin-top: 10px; }
+    .footer-tagline { font-size: .9rem; line-height: 1.7; color: var(--on-dark-faint); max-width: 34ch; margin-top: 18px; }
+    .footer-col h5 { font-family: var(--sans); font-size: .66rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; color: var(--gold-soft); margin-bottom: 18px; }
+    .footer-links { display: flex; flex-direction: column; gap: 12px; }
+    .footer-links a { font-size: .9rem; text-decoration: none; color: var(--on-dark-dim); transition: color .2s var(--ease), transform .2s var(--ease); width: fit-content; }
+    .footer-links a:hover { color: var(--white); transform: translateX(4px); }
+    .footer-social { display: flex; gap: 11px; }
+    .footer-social a { width: 40px; height: 40px; border: 1px solid rgba(218,197,156,.3); display: flex; align-items: center; justify-content: center; text-decoration: none; color: var(--on-dark); transition: border-color .25s var(--ease), color .25s var(--ease), background .25s var(--ease); }
+    .footer-social a:hover { border-color: var(--gold); color: var(--midnight); background: var(--gold); }
+    .footer-social svg { width: 17px; height: 17px; }
+    .footer-bottom { position: relative; z-index: var(--z-base); max-width: var(--max-w); margin: clamp(44px, 5vw, 60px) auto 0; padding: 24px var(--pad-x); border-top: 1px solid rgba(218,197,156,.2); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+    .footer-copy, .footer-note { font-size: .76rem; color: var(--on-dark-faint); }
+
+    /* ===== MOTION ===== */
+    /* Entrada do herói (somente com JS; conteúdo é visível por padrão) */
+    .js [data-animate] { opacity: 0; transform: translateY(26px); }
+    .js body.ready [data-animate] {
+      opacity: 1; transform: none;
+      transition: opacity .9s var(--ease), transform .9s var(--ease);
+      transition-delay: calc(var(--i, 0) * 110ms);
+    }
+    /* Revelação por rolagem — gateada por .js para não esconder em no-JS */
+    .js .reveal { opacity: 0; transform: translateY(28px); }
+    .js .reveal.visible { opacity: 1; transform: none; transition: opacity .8s var(--ease), transform .8s var(--ease); }
+    .js .reveal-d1 { transition-delay: .1s; }
+    .js .reveal-d2 { transition-delay: .2s; }
+    .js .reveal-d3 { transition-delay: .3s; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .js [data-animate], .js body.ready [data-animate],
+      .js .reveal, .js .reveal.visible { opacity: 1 !important; transform: none !important; transition: none !important; }
+      .hero-scroll .line::after { animation: none; }
+      html { scroll-behavior: auto; }
+      * { animation-duration: .001ms !important; }
+    }
+
+    /* ===== RESPONSIVO ===== */
+    @media (max-width: 1024px) {
+      .hero-grid, .sobre-grid, .dif-grid, .contato-grid { grid-template-columns: 1fr; gap: clamp(40px, 8vw, 64px); }
+      .hero-visual, .sobre-visual { max-width: 440px; }
+      .hero-grid { align-items: start; }
+      .dif-intro { position: static; }
+      .equipe-grid { grid-template-columns: repeat(2, 1fr); gap: 26px; }
+      .areas-head { grid-template-columns: 1fr; align-items: start; }
+      .areas-grid { grid-template-columns: repeat(2, 1fr); }
+      .equipe-head { grid-template-columns: 1fr; align-items: start; }
+    }
+    @media (max-width: 760px) {
+      body { font-size: 16px; }
+      .nav-menu, .nav-cta { display: none; }
+      .nav-toggle { display: flex; }
+      .areas-grid { grid-template-columns: 1fr; }
+      .area--wide { flex-direction: column; }
+      .area--wide .area-title { margin-top: 14px; }
+      .area--wide .area-desc { margin-top: 12px; }
+      .form-row { grid-template-columns: 1fr; }
+      .footer-inner { grid-template-columns: 1fr; gap: 36px; }
+      .footer-bottom { flex-direction: column; text-align: center; }
+      .hero-partners { font-size: .68rem; }
+      .hero-content { bottom: clamp(72px, 12vh, 120px); }
+      .hero-sub { max-width: 34ch; }
+    }
+    @media (max-width: 480px) {
+      .equipe-grid { grid-template-columns: 1fr; }
+      .hero-actions { flex-direction: column; align-items: stretch; }
+      .sobre-stats { gap: 24px; }
+      .sobre-visual .tag { left: 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav id="nav">
+    <a href="#hero" class="nav-brand" aria-label="FGTB — página inicial">
+      <span class="nav-brand-main">FGTB</span>
+      <span class="nav-brand-sub">Sociedade de Advogados</span>
+    </a>
+    <ul class="nav-menu">
+      <li><a href="#sobre">Quem Somos</a></li>
+      <li><a href="#areas">Atuação</a></li>
+      <li><a href="#equipe">Equipe</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+    <a href="#contato" class="nav-cta">Fale conosco</a>
+    <button class="nav-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ===== HERO (vídeo) ===== -->
+  <header id="hero" aria-label="Apresentação FGTB">
+    <video class="hero-video" id="heroVideoA" muted playsinline preload="auto" aria-hidden="true"></video>
+    <video class="hero-video" id="heroVideoB" muted playsinline preload="auto" aria-hidden="true"></video>
+    <div class="hero-overlay" aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <div class="container">
+        <div class="hero-brand" data-animate style="--i:0">
+          <span class="hero-brand-main">FGTB</span>
+          <span class="hero-brand-sub">Sociedade de Advogados</span>
+        </div>
+        <h1 class="hero-title" data-animate style="--i:1">Litigância estratégica. Onde a decisão importa.</h1>
+        <p class="hero-sub" data-animate style="--i:2">Advocacia de alto impacto no Norte e nos tribunais superiores.</p>
+        <div class="hero-actions" data-animate style="--i:3">
+          <a href="#contato" class="btn btn--gold">Fale conosco</a>
+          <a href="#areas" class="btn btn--ghost-light">Áreas de atuação</a>
+        </div>
+      </div>
+    </div>
+
+    <a href="#sobre" class="hero-scroll" aria-label="Rolar para conhecer o escritório">
+      <span class="line"></span>
+    </a>
+  </header>
+
+  <!-- ===== QUEM SOMOS ===== -->
+  <section id="sobre">
+    <div class="container">
+      <div class="sobre-grid">
+        <div class="sobre-text reveal">
+          <span class="kicker">Quem somos</span>
+          <h2 style="margin-top:18px;">Litigância estratégica. Presença onde a decisão acontece.</h2>
+          <p class="lead">O FGTB é um escritório de advocacia com sede em Brasília e Manaus, estruturado para litigar onde as decisões mais importam. Nossa atuação alcança os tribunais superiores, com uma equipe que une profundidade técnica, experiência processual e visão estratégica de cada demanda.</p>
+          <p>A presença simultânea em Brasília e no Amazonas não é acidente: reflete a vocação do escritório de operar em alta complexidade jurídica sem abrir mão do conhecimento regional que diferencia nossa leitura dos casos.</p>
+          <div class="sobre-stats">
+            <div class="stat">
+              <div class="stat-num">7</div>
+              <div class="stat-label">Áreas especializadas</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">4</div>
+              <div class="stat-label">Sócios fundadores</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">1<sup>º</sup></div>
+              <div class="stat-label">Lugar · Electoral Moot Brasil 2026</div>
+            </div>
+          </div>
+          <a href="#diferenciais" class="btn btn--ghost" style="margin-top:36px;">O que nos diferencia</a>
+        </div>
+        <div class="sobre-visual reveal reveal-d1">
+          <div class="frame" id="sobreStack">
+            <div class="frame-mono" aria-hidden="true">
+              <span>FGTB</span>
+              <span>Sociedade de Advogados</span>
+            </div>
+            <img class="stack-slide is-on" style="z-index:2" src="Fotos/FGTB-370.jpg" alt="Escritório do FGTB — advocacia estratégica em Manaus e Brasília" onerror="this.style.display='none'" />
+            <img class="stack-slide" src="Fotos/sobre/FGTB-233.jpg" alt="Equipe do FGTB em atividade no escritório" loading="lazy" onerror="this.style.display='none'" />
+            <img class="stack-slide" src="Fotos/sobre/FGTB-238.jpg" alt="Advogados do FGTB trabalhando nas estações do escritório" loading="lazy" onerror="this.style.display='none'" />
+            <img class="stack-slide" src="Fotos/sobre/FGTB-236.jpg" alt="Rotina de trabalho da equipe do FGTB" loading="lazy" onerror="this.style.display='none'" />
+            <img class="stack-slide" src="Fotos/sobre/FGTB-251.jpg" alt="Vista geral do escritório do FGTB em operação" loading="lazy" onerror="this.style.display='none'" />
+            <div class="stack-slide stack-slide--fit">
+              <img class="bg" src="Fotos/sobre/FGTB-271.jpg" alt="" aria-hidden="true" loading="lazy" />
+              <img class="fg" src="Fotos/sobre/FGTB-271.jpg" alt="Equipe completa do FGTB reunida no escritório" loading="lazy" onerror="this.parentElement.style.display='none'" />
+            </div>
+          </div>
+          <span class="tag">Brasília · Manaus</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ÁREAS DE ATUAÇÃO ===== -->
+  <section id="areas" class="diamond-bg">
+    <div class="container">
+      <div class="areas-head reveal">
+        <div>
+          <span class="kicker kicker--on-dark">Atuação</span>
+          <h2>Sete frentes. Profundidade técnica e visão estratégica em cada uma.</h2>
+        </div>
+        <p>Profundidade técnica e atenção individualizada a cada demanda, da estratégia processual à reestruturação empresarial.</p>
+      </div>
+
+      <div class="areas-grid reveal reveal-d1">
+        <a class="area" href="#contato">
+          <span class="area-num">01</span>
+          <h3 class="area-title">Contencioso Cível</h3>
+          <p class="area-desc">Análise de risco, estratégia processual e condução rigorosa de demandas judiciais.</p>
+        </a>
+        <a class="area" href="#contato">
+          <span class="area-num">02</span>
+          <h3 class="area-title">Contencioso Estratégico</h3>
+          <p class="area-desc">Litigância planejada para causas de alto impacto econômico ou institucional.</p>
+        </a>
+        <a class="area" href="#contato">
+          <span class="area-num">03</span>
+          <h3 class="area-title">Direito Público</h3>
+          <p class="area-desc">Licitações, contratos administrativos, concessões, energia elétrica, petróleo e gás, servidores públicos, Zona Franca de Manaus e contencioso com o poder público.</p>
+        </a>
+        <a class="area" href="#contato">
+          <span class="area-num">04</span>
+          <h3 class="area-title">Direito Eleitoral</h3>
+          <p class="area-desc">Assessoria eleitoral, registro de candidaturas, impugnações e contencioso eleitoral.</p>
+        </a>
+        <a class="area" href="#contato">
+          <span class="area-num">05</span>
+          <h3 class="area-title">Direito Trabalhista</h3>
+          <p class="area-desc">Consultoria preventiva e estratégica para empresas de médio e grande porte. Gestão de passivos trabalhistas, compliance, CCTs, terceirização, jornada e adequação às NRs, com foco em reduzir risco e proteger o resultado financeiro do cliente.</p>
+        </a>
+        <a class="area" href="#contato">
+          <span class="area-num">06</span>
+          <h3 class="area-title">Direito Empresarial e Societário</h3>
+          <p class="area-desc">Constituição e reorganização de sociedades, acordos de sócios, governança, contratos empresariais e operações societárias.</p>
+        </a>
+        <a class="area area--wide" href="#contato">
+          <span class="area-num">07</span>
+          <h3 class="area-title">Recuperação Judicial &amp; Falência</h3>
+          <p class="area-desc">Reestruturação empresarial, defesa de credores e condução de processos falimentares.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DIFERENCIAIS ===== -->
+  <section id="diferenciais">
+    <div class="container">
+      <div class="dif-grid">
+        <div class="dif-intro reveal">
+          <span class="kicker">Método</span>
+          <h2>O que diferencia nossa atuação.</h2>
+          <p class="lead">Presença nos tribunais superiores, método processual rigoroso e duas sedes que cobrem os polos decisivos do direito brasileiro. Cinco compromissos que orientam cada mandato conduzido pelo escritório.</p>
+        </div>
+        <div class="dif-list reveal reveal-d1">
+          <div class="dif-item">
+            <span class="dif-mark" aria-hidden="true"></span>
+            <div>
+              <h3 class="dif-h">Conhecimento regional com profundidade técnica</h3>
+              <p class="dif-p">Entendemos o Amazonas porque construímos nossa trajetória aqui. As especificidades do ambiente regulatório, judiciário e econômico da região Norte são parte da nossa formação, não um recurso de apresentação.</p>
+            </div>
+          </div>
+          <div class="dif-item">
+            <span class="dif-mark" aria-hidden="true"></span>
+            <div>
+              <h3 class="dif-h">Presença real em Brasília e Manaus</h3>
+              <p class="dif-p">Duas sedes plenamente operacionais. Em Brasília, acesso direto aos tribunais superiores e ao ambiente federal. Em Manaus, conhecimento profundo do judiciário estadual, do marco regulatório da Zona Franca e das especificidades do Norte.</p>
+            </div>
+          </div>
+          <div class="dif-item">
+            <span class="dif-mark" aria-hidden="true"></span>
+            <div>
+              <h3 class="dif-h">Estrutura organizada por áreas especializadas</h3>
+              <p class="dif-p">Cada frente de atuação é conduzida com dedicação específica, o que garante que cada demanda receba o nível de profundidade técnica que ela exige.</p>
+            </div>
+          </div>
+          <div class="dif-item">
+            <span class="dif-mark" aria-hidden="true"></span>
+            <div>
+              <h3 class="dif-h">Planejamento antes da ação</h3>
+              <p class="dif-p">Cada demanda começa com mapeamento de cenários, avaliação de riscos e definição do melhor caminho jurídico disponível para aquela situação.</p>
+            </div>
+          </div>
+          <div class="dif-item">
+            <span class="dif-mark" aria-hidden="true"></span>
+            <div>
+              <h3 class="dif-h">Comunicação clara e contínua</h3>
+              <p class="dif-p">O cliente é mantido informado em cada etapa relevante. Clareza sobre o andamento, transparência sobre os cenários e agilidade na comunicação orientam nossa relação.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CITAÇÃO ===== -->
+  <section class="quote-band diamond-bg">
+    <div class="quote-inner reveal">
+      <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+      <blockquote>Advocacia de alto impacto no Norte e nos tribunais superiores.</blockquote>
+      <span class="quote-cite">FGTB · Advocacia Estratégica</span>
+    </div>
+  </section>
+
+  <!-- ===== EQUIPE ===== -->
+  <section id="equipe">
+    <div class="container">
+      <div class="equipe-head reveal">
+        <div>
+          <span class="kicker">Equipe</span>
+          <h2>Os sócios fundadores.</h2>
+        </div>
+        <p>Cada área é conduzida por um sócio com atuação dedicada, o que assegura profundidade técnica e atenção individualizada.</p>
+      </div>
+
+      <div class="equipe-grid reveal reveal-d1">
+        <article class="adv">
+          <div class="adv-portrait">
+            <span class="adv-mono" aria-hidden="true">AF</span>
+            <img src="Fotos/socios/alcemir.jpg" alt="Retrato de Alcemir Figliuolo Neto, sócio do FGTB" loading="lazy" onerror="this.style.display='none'"/>
+          </div>
+          <div class="adv-rule"></div>
+          <div class="adv-name">Alcemir Figliuolo Neto</div>
+          <div class="adv-role">Sócio fundador</div>
+          <div class="adv-area">Direito Trabalhista · Direito Público</div>
+        </article>
+        <article class="adv">
+          <div class="adv-portrait">
+            <span class="adv-mono" aria-hidden="true">AG</span>
+            <img src="Fotos/socios/ayrton.jpg" alt="Retrato de Ayrton Gentil Neto, sócio do FGTB" loading="lazy" onerror="this.style.display='none'"/>
+          </div>
+          <div class="adv-rule"></div>
+          <div class="adv-name">Ayrton Gentil Neto</div>
+          <div class="adv-role">Sócio fundador</div>
+          <div class="adv-area">Contencioso Cível · Contencioso Estratégico Cível</div>
+        </article>
+        <article class="adv">
+          <div class="adv-portrait">
+            <span class="adv-mono" aria-hidden="true">LT</span>
+            <img src="Fotos/socios/luciano.jpg" alt="Retrato de Luciano Tavares, sócio do FGTB" loading="lazy" onerror="this.style.display='none'"/>
+          </div>
+          <div class="adv-rule"></div>
+          <div class="adv-name">Luciano Tavares</div>
+          <div class="adv-role">Sócio fundador</div>
+          <div class="adv-area">Tribunais Superiores · Recuperação Judicial &amp; Falência</div>
+        </article>
+        <article class="adv">
+          <div class="adv-portrait">
+            <span class="adv-mono" aria-hidden="true">LB</span>
+            <img src="Fotos/socios/lucas.jpg" alt="Retrato de Lucas Brandão, sócio do FGTB" loading="lazy" onerror="this.style.display='none'"/>
+          </div>
+          <div class="adv-rule"></div>
+          <div class="adv-name">Lucas Brandão</div>
+          <div class="adv-role">Sócio fundador</div>
+          <div class="adv-area">Direito Eleitoral · Recuperação Judicial &amp; Falência</div>
+        </article>
+      </div>
+
+      <div class="equipe-foot reveal">
+        <p>Currículos completos e demais membros da equipe serão apresentados em breve.</p>
+        <a href="#contato" class="btn btn--ghost">Fale com nossa equipe</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTATO ===== -->
+  <section id="contato">
+    <div class="container">
+      <div class="contato-grid">
+        <div class="contato-info reveal">
+          <span class="kicker">Contato</span>
+          <h2>Fale com o FGTB.</h2>
+          <p class="lead">Descreva sua demanda no formulário. Nossa equipe retornará em até 1 dia útil pelos canais informados para entender o contexto e indicar o caminho mais adequado.</p>
+          <div class="contact-items">
+            <div class="contact-item">
+              <span class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </span>
+              <div>
+                <div class="contact-label">E-mail</div>
+                <div class="contact-val">contato@fgtb.adv.br</div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.76 19.79 19.79 0 01.01 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+              </span>
+              <div>
+                <div class="contact-label">Telefone / WhatsApp</div>
+                <div class="contact-val"><a href="https://wa.me/5592984136499?text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20o%20FGTB." target="_blank" rel="noopener">(92) 98413-6499</a></div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </span>
+              <div>
+                <div class="contact-label">Manaus/AM</div>
+                <div class="contact-val">Rua Salvador, 440, Adrianópolis<br/>Edifício Soberane, 13º andar, sala 1304</div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </span>
+              <div>
+                <div class="contact-label">Brasília/DF</div>
+                <div class="contact-val">SHIS QL 12, Conjunto 09, Casa 15<br/>Lago Sul · CEP 71.630-295</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form class="form reveal reveal-d1" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="nome">Nome completo</label>
+              <input type="text" id="nome" name="nome" placeholder="Seu nome" autocomplete="name" required/>
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" placeholder="seu@email.com" autocomplete="email" required/>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="tel">Telefone / WhatsApp</label>
+              <input type="tel" id="tel" name="tel" placeholder="(92) 90000-0000" autocomplete="tel"/>
+            </div>
+            <div class="form-group">
+              <label for="empresa">Empresa (opcional)</label>
+              <input type="text" id="empresa" name="empresa" placeholder="Nome da empresa" autocomplete="organization"/>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="area-sel">Área de interesse</label>
+            <select id="area-sel" name="area">
+              <option value="" disabled selected>Selecione uma área</option>
+              <option>Contencioso Cível</option>
+              <option>Contencioso Estratégico</option>
+              <option>Direito Público</option>
+              <option>Direito Eleitoral</option>
+              <option>Direito Trabalhista</option>
+              <option>Direito Empresarial e Societário</option>
+              <option>Recuperação Judicial e Falência</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="msg">Mensagem</label>
+            <textarea id="msg" name="mensagem" placeholder="Descreva brevemente a sua demanda…"></textarea>
+          </div>
+          <div class="form-actions">
+            <button type="submit" class="btn btn--primary">Enviar mensagem</button>
+            <p class="form-disclaimer">O envio pelo site não caracteriza contratação de serviços jurídicos nem estabelece vínculo advogado-cliente.</p>
+          </div>
+          <p class="form-success" id="formSuccess" role="status">Mensagem recebida. Nossa equipe retornará em breve.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="diamond-bg">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand-main">FGTB</div>
+        <div class="footer-brand-sub">Figliuolo · Gentil · Tavares · Brandão</div>
+        <p class="footer-tagline">Advocacia estratégica em Brasília e Manaus — do contencioso de alto impacto aos tribunais superiores.</p>
+        <address class="footer-tagline" style="font-style:normal;">Manaus/AM · Rua Salvador, 440, Adrianópolis — Edifício Soberane, 13º andar, sala 1304<br/>Brasília/DF · SHIS QL 12, Conjunto 09, Casa 15, Lago Sul — CEP 71.630-295</address>
+      </div>
+      <div class="footer-col">
+        <h5>Navegação</h5>
+        <nav class="footer-links" aria-label="Rodapé">
+          <a href="#sobre">Quem Somos</a>
+          <a href="#areas">Áreas de Atuação</a>
+          <a href="#equipe">Equipe</a>
+          <a href="#contato">Contato</a>
+        </nav>
+      </div>
+      <div class="footer-col">
+        <h5>Redes</h5>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/fgtbadvogados/" target="_blank" rel="noopener" aria-label="Instagram do FGTB">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.6" y1="6.4" x2="17.61" y2="6.4"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/company/adv-fgtb" target="_blank" rel="noopener" aria-label="LinkedIn do FGTB">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2026 FGTB · Figliuolo, Gentil, Tavares &amp; Brandão. Todos os direitos reservados.</p>
+      <p class="footer-note">Caráter informativo · não constitui consulta jurídica.</p>
+    </div>
+  </footer>
+
+  <!-- ==== BOTÃO FLUTUANTE DE WHATSAPP ==== -->
+  <a href="https://wa.me/5592984136499?text=Ol%C3%A1%2C%20gostaria%20de%20falar%20com%20o%20FGTB."
+     class="wa-float" target="_blank" rel="noopener" aria-label="Falar com o FGTB no WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" width="32" height="32"><path d="M.06 24l1.68-6.13A11.87 11.87 0 010 5.94 11.9 11.9 0 0112 0a11.9 11.9 0 0111.94 11.94A11.9 11.9 0 0112 23.88a11.9 11.9 0 01-5.7-1.45L.06 24zM6.6 20.13l.36.22a9.9 9.9 0 005.04 1.38 9.88 9.88 0 100-19.76A9.88 9.88 0 002.12 12a9.82 9.82 0 001.52 5.25l.24.38-1 3.62 3.72-1.12zM17.9 14.3c-.1-.17-.37-.27-.77-.47s-2.37-1.17-2.74-1.3c-.37-.14-.64-.2-.9.2s-1.03 1.3-1.27 1.57c-.23.27-.47.3-.87.1a8.13 8.13 0 01-2.4-1.48 9 9 0 01-1.66-2.07c-.17-.3 0-.46.13-.6.13-.13.3-.34.44-.5.15-.18.2-.3.3-.5.1-.2.05-.37-.02-.53-.08-.16-.9-2.16-1.23-2.96-.32-.77-.65-.66-.9-.67h-.76c-.27 0-.7.1-1.06.5-.37.4-1.4 1.36-1.4 3.32s1.43 3.85 1.63 4.12c.2.27 2.82 4.3 6.83 6.03.95.4 1.7.65 2.28.84.96.3 1.83.26 2.52.16.77-.12 2.37-.97 2.7-1.9.34-.94.34-1.74.24-1.9z"/></svg>
+  </a>
+  <style>
+    .wa-float{position:fixed;right:22px;bottom:22px;z-index:1200;width:56px;height:56px;border-radius:50%;
+      display:flex;align-items:center;justify-content:center;background:#25D366;color:#fff;
+      box-shadow:0 10px 30px rgba(0,0,0,.28);transition:transform .25s var(--ease),box-shadow .25s var(--ease);}
+    .wa-float:hover{transform:translateY(-3px) scale(1.05);box-shadow:0 16px 36px rgba(37,211,102,.45);}
+  </style>
+  <!-- ==== fim do botão de WhatsApp ==== -->
+
+  <script>
+    // Herói: alternância suave (crossfade) entre os vídeos da pasta Vídeos
+    (function () {
+      const a = document.getElementById('heroVideoA');
+      const b = document.getElementById('heroVideoB');
+      if (!a || !b) return;
+      const dir = 'videos/';
+      const clips = [
+        '20256710-hd_1920_1080_24fps.mp4',  // 1º — vídeo 2
+        '14290393_1920_1080_30fps.mp4',     // 2º — vídeo 1
+        '87525-602317594_small.mp4',        // 3º — vídeo 4
+      ].map(f => dir + encodeURIComponent(f));
+      // Segundos a cortar do FINAL de cada clipe (mesma ordem da lista acima)
+      const trimEnd = [0, 5, 0];
+      // Antecedência (s) com que o próximo clipe começa, para o crossfade
+      const FADE = 1.4;
+
+      let i = 0;                  // índice do clipe ativo
+      let cur = a, nxt = b;       // elemento ativo / próximo
+      let switching = false;
+
+      const prime = (el, idx) => {
+        el.src = clips[idx];
+        el.load();
+      };
+
+      const swap = () => {
+        if (switching) return;
+        switching = true;
+        const upcoming = (i + 1) % clips.length;
+        const play = () => nxt.play().catch(() => {});
+        if (nxt.readyState >= 2) play();
+        else nxt.addEventListener('canplay', play, { once: true });
+        // crossfade
+        nxt.classList.add('is-on');
+        cur.classList.remove('is-on');
+        const done = cur;
+        // após o fade, libera o elemento que saiu e já adianta o seguinte
+        setTimeout(() => {
+          done.pause();
+          prime(done, (upcoming + 1) % clips.length);
+          [cur, nxt] = [nxt, cur];
+          i = upcoming;
+          switching = false;
+        }, FADE * 1000 + 80);
+      };
+
+      const onTime = (el) => () => {
+        if (el !== cur || switching) return;
+        const cut = trimEnd[i] || 0;
+        const lead = Math.max(cut, FADE);   // inicia o crossfade com antecedência
+        if (el.duration && el.currentTime >= el.duration - lead) swap();
+      };
+      a.addEventListener('timeupdate', onTime(a));
+      b.addEventListener('timeupdate', onTime(b));
+      a.addEventListener('ended', () => { if (cur === a) swap(); });
+      b.addEventListener('ended', () => { if (cur === b) swap(); });
+      a.addEventListener('error', () => { if (cur === a) swap(); });
+      b.addEventListener('error', () => { if (cur === b) swap(); });
+
+      // início
+      prime(a, 0);
+      prime(b, 1);
+      const start = () => a.play().catch(() => {});
+      if (a.readyState >= 2) start(); else a.addEventListener('canplay', start, { once: true });
+      requestAnimationFrame(() => requestAnimationFrame(() => a.classList.add('is-on')));
+    })();
+
+    // Quem somos: pilha de fotos — a próxima assenta por cima, lentamente
+    (function () {
+      const slides = document.querySelectorAll('#sobreStack .stack-slide');
+      if (slides.length < 2 || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      let i = 0, z = 2;
+      setInterval(() => {
+        i = (i + 1) % slides.length;
+        const img = slides[i];
+        img.style.zIndex = ++z;
+        img.classList.remove('is-on');
+        void img.offsetWidth; // reinicia a animação
+        img.classList.add('is-on');
+      }, 5500);
+    })();
+
+    // Barra: estado de rolagem
+    const nav = document.getElementById('nav');
+    const onScroll = () => nav.classList.toggle('scrolled', window.scrollY > 40);
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+
+    // Entrada do herói após o load (conteúdo é visível por padrão sem JS)
+    const startHero = () => requestAnimationFrame(() => document.body.classList.add('ready'));
+    if (document.readyState === 'complete') startHero();
+    else window.addEventListener('load', startHero);
+
+    // Revelação por rolagem
+    const reveals = document.querySelectorAll('.reveal');
+    if ('IntersectionObserver' in window) {
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } });
+      }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+      reveals.forEach(el => io.observe(el));
+    } else {
+      reveals.forEach(el => el.classList.add('visible'));
+    }
+
+    // Scroll spy — destaca a seção ativa na navbar
+    (function () {
+      const links = Array.from(document.querySelectorAll('.nav-menu a[href^="#"]'));
+      const map = links
+        .map(a => ({ a, sec: document.querySelector(a.getAttribute('href')) }))
+        .filter(x => x.sec);
+      if (!map.length || !('IntersectionObserver' in window)) return;
+      const spy = new IntersectionObserver((entries) => {
+        entries.forEach(e => {
+          if (e.isIntersecting) {
+            map.forEach(x => x.a.classList.toggle('active', x.sec === e.target));
+          }
+        });
+      }, { rootMargin: '-45% 0px -50% 0px', threshold: 0 });
+      map.forEach(x => spy.observe(x.sec));
+    })();
+
+    // Menu mobile
+    const toggle = document.getElementById('menuToggle');
+    const menu = document.querySelector('.nav-menu');
+    const openMenu = (open) => {
+      toggle.setAttribute('aria-expanded', String(open));
+      menu.style.cssText = open
+        ? 'display:flex;flex-direction:column;align-items:flex-start;position:fixed;top:58px;left:0;right:0;background:rgba(255,255,255,.97);padding:26px var(--pad-x);gap:20px;border-bottom:1px solid rgba(21,32,43,.1);z-index:1100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);box-shadow:0 14px 34px rgba(11,26,47,.1);'
+        : '';
+      if (open) menu.querySelectorAll('a').forEach(a => { a.style.color = 'var(--slate)'; });
+    };
+    toggle.addEventListener('click', () => openMenu(toggle.getAttribute('aria-expanded') !== 'true'));
+    menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { if (window.innerWidth <= 760) openMenu(false); }));
+
+    // Formulário (demonstração — sem backend)
+    document.getElementById('contactForm').addEventListener('submit', e => {
+      e.preventDefault();
+      const ok = document.getElementById('formSuccess');
+      ok.classList.add('show');
+      e.target.querySelectorAll('input,textarea').forEach(f => { f.value = ''; });
+      e.target.querySelector('select').selectedIndex = 0;
+      ok.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    });
+  </script>
+</body>
+</html>
